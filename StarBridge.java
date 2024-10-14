@@ -6,7 +6,7 @@ public class StarBridge {
         System.out.println("Enter rows and Columns");
         int r = sc.nextInt();
         for(int i=1;i<=2*r-1;i++) { // rows
-            System.out.print("*" + " ");
+            System.out.print("#" + " ");
         }
         System.out.println();
         for(int i=1;i<=r;i++){ // rows
